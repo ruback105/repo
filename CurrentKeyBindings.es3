@@ -1,0 +1,65 @@
+{
+	"KeyBindings" : {
+		"__type" : "KeyBindingSaveData,Assembly-CSharp",
+		"value" : {
+			"bindingOverrides" : {0:[
+					"2DVector","<Keyboard>\/w","<Keyboard>\/s","<Keyboard>\/a","<Keyboard>\/d"
+				],17:[
+					"<Mouse>\/scroll\/y"
+				],1:[
+					"<Keyboard>\/space"
+				],2:[
+					"<Keyboard>\/e"
+				],3:[
+					"<Pointer>\/position"
+				],4:[
+					"<Mouse>\/scroll\/y"
+				],5:[
+					"<Mouse>\/scroll\/y"
+				],6:[
+					"<Keyboard>\/escape"
+				],18:[
+					"<Keyboard>\/escape"
+				],22:[
+					"<Keyboard>\/F1"
+				],7:[
+					"<Keyboard>\/t"
+				],8:[
+					"<Keyboard>\/tab"
+				],9:[
+					"<Keyboard>\/enter"
+				],10:[
+					"<Mouse>\/leftButton"
+				],11:[
+					"<Mouse>\/rightButton"
+				],12:[
+					"<Keyboard>\/ctrl"
+				],13:[
+					"<Keyboard>\/backspace"
+				],14:[
+					"<Keyboard>\/q"
+				],15:[
+					"<Keyboard>\/leftShift"
+				],16:[
+					"<Pointer>\/delta"
+				],19:[
+					"<Keyboard>\/1"
+				],20:[
+					"<Keyboard>\/2"
+				],21:[
+					"<Keyboard>\/3"
+				],23:[
+					"<Mouse>\/rightButton"
+				],24:[
+					"<Mouse>\/leftButton"
+				],25:[
+					"<Keyboard>\/v"
+				]
+			},
+			"inputToggleStates" : {15:false,12:false,8:false,10:false
+			},
+			"inputPercentSettings" : {0:50
+			}
+		}
+	}
+}
