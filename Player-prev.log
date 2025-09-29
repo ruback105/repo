@@ -18,9 +18,9 @@ New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
-Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-000002207ED55A90.dll
-Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-000002207F06DEF0.dll
-UnloadTime: 6.752000 ms
+Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-0000025C0BE0A290.dll
+Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-0000025C0C0DD070.dll
+UnloadTime: 6.412600 ms
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
 VERSION: v0.2.1
@@ -31,19 +31,18 @@ Steam: Leaving lobby...
 Cancelling Steam Auth Ticket...
 Leave to Main Menu
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 12.967900 ms
+UnloadTime: 12.999500 ms
 Unloading 33141 unused Assets to reduce memory usage. Loaded Objects now: 946285.
-Total: 437.704900 ms (FindLiveObjects: 41.226300 ms CreateObjectMapping: 98.817900 ms MarkObjects: 280.847000 ms  DeleteObjects: 16.813300 ms)
+Total: 433.062600 ms (FindLiveObjects: 40.872300 ms CreateObjectMapping: 98.528900 ms MarkObjects: 277.012500 ms  DeleteObjects: 16.648700 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.629800 ms
+UnloadTime: 7.582400 ms
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 980776.
-Total: 310.956600 ms (FindLiveObjects: 41.266700 ms CreateObjectMapping: 99.469000 ms MarkObjects: 165.711900 ms  DeleteObjects: 4.508800 ms)
+Total: 324.401200 ms (FindLiveObjects: 40.750400 ms CreateObjectMapping: 98.950900 ms MarkObjects: 179.982000 ms  DeleteObjects: 4.717700 ms)
 
 Photon - Set AppId
 Sending Steam Auth Ticket...
 Getting Steam Auth Ticket...
-Disconnected from server for reason DisconnectByClientLogic
 Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
 Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
 Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
@@ -52,232 +51,17 @@ Parameter name: s
   at System.Int32.Parse (System.String s) [0x00003] in <4b234520e36749be9cf6b053d911690f>:0 
   at MenuPageSaves.Start () [0x0009d] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
 
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-ArgumentNullException: Value cannot be null.
-Parameter name: s
-  at System.Int32.Parse (System.String s) [0x00003] in <4b234520e36749be9cf6b053d911690f>:0 
-  at MenuPageSaves.SaveFileSelected (System.String saveFileName) [0x000e3] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuElementSaveFile.Update () [0x0006f] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-
-UnauthorizedAccessException: Access to the path 'cb6524f72e66a6b713519dd6cc8b9cd3737b06' is denied.
-  at System.IO.FileSystem.RemoveDirectoryRecursive (System.String fullPath, Interop+Kernel32+WIN32_FIND_DATA& findData, System.Boolean topLevel) [0x0014c] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.FileSystem.RemoveDirectory (System.String fullPath, System.Boolean recursive) [0x00036] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.Directory.Delete (System.String path, System.Boolean recursive) [0x00006] in <4b234520e36749be9cf6b053d911690f>:0 
-  at StatsManager.SaveFileDelete (System.String saveFileName) [0x00019] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at SemiFunc.SaveFileDelete (System.String saveFileName) [0x00009] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuPageSaves.OnDeleteGame () [0x00034] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuPageTwoOptions.ButtonEventOption1 () [0x00008] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuButton.OnSelect () [0x00063] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.HoverLogic () [0x00085] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.Update () [0x00029] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-
-UnauthorizedAccessException: Access to the path 'cb6524f72e66a6b713519dd6cc8b9cd3737b06' is denied.
-  at System.IO.FileSystem.RemoveDirectoryRecursive (System.String fullPath, Interop+Kernel32+WIN32_FIND_DATA& findData, System.Boolean topLevel) [0x0014c] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.FileSystem.RemoveDirectory (System.String fullPath, System.Boolean recursive) [0x00036] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.Directory.Delete (System.String path, System.Boolean recursive) [0x00006] in <4b234520e36749be9cf6b053d911690f>:0 
-  at StatsManager.SaveFileDelete (System.String saveFileName) [0x00019] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at SemiFunc.SaveFileDelete (System.String saveFileName) [0x00009] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuPageSaves.OnDeleteGame () [0x00034] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuPageTwoOptions.ButtonEventOption1 () [0x00008] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuButton.OnSelect () [0x00063] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.HoverLogic () [0x00085] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.Update () [0x00029] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-
-UnauthorizedAccessException: Access to the path 'cb6524f72e66a6b713519dd6cc8b9cd3737b06' is denied.
-  at System.IO.FileSystem.RemoveDirectoryRecursive (System.String fullPath, Interop+Kernel32+WIN32_FIND_DATA& findData, System.Boolean topLevel) [0x0014c] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.FileSystem.RemoveDirectory (System.String fullPath, System.Boolean recursive) [0x00036] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.Directory.Delete (System.String path, System.Boolean recursive) [0x00006] in <4b234520e36749be9cf6b053d911690f>:0 
-  at StatsManager.SaveFileDelete (System.String saveFileName) [0x00019] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at SemiFunc.SaveFileDelete (System.String saveFileName) [0x00009] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuPageSaves.OnDeleteGame () [0x00034] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuPageTwoOptions.ButtonEventOption1 () [0x00008] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuButton.OnSelect () [0x00063] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.HoverLogic () [0x00085] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.Update () [0x00029] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-
-UnauthorizedAccessException: Access to the path 'cb6524f72e66a6b713519dd6cc8b9cd3737b06' is denied.
-  at System.IO.FileSystem.RemoveDirectoryRecursive (System.String fullPath, Interop+Kernel32+WIN32_FIND_DATA& findData, System.Boolean topLevel) [0x0014c] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.FileSystem.RemoveDirectory (System.String fullPath, System.Boolean recursive) [0x00036] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.IO.Directory.Delete (System.String path, System.Boolean recursive) [0x00006] in <4b234520e36749be9cf6b053d911690f>:0 
-  at StatsManager.SaveFileDelete (System.String saveFileName) [0x00019] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at SemiFunc.SaveFileDelete (System.String saveFileName) [0x00009] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuPageSaves.OnDeleteGame () [0x00034] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuPageTwoOptions.ButtonEventOption1 () [0x00008] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <70dfc3d6a20943b0ba4061b9aa5ea205>:0 
-  at MenuButton.OnSelect () [0x00063] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.HoverLogic () [0x00085] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-  at MenuButton.Update () [0x00029] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-
-Changed level to: Level - Lobby Menu
-Photon - Set Region
-Photon - Set Version
-Photon - Set AppId
-PunVoiceClientLogic Awake
-Created lobby on Network Connect.
-Steam: Hosting lobby...
-Steam: Lobby created with ID: 109775244793293656
-Steam: Lobby entered with ID: 109775244793293656
-Steam: Region: 
-Sending Steam Auth Ticket...
-Getting Steam Auth Ticket...
-Connected to Master Server
-I am the owner.
-Steam: Setting lobby data...
-Trying to join room: 109775244793293656
-Created room successfully 109775244793293656 eu
-Joined room: 109775244793293656 eu
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Game Mode: Multiplayer
-NetworkConnect destroyed.
-UnloadTime: 9.933000 ms
-[2025-09-23T09:46:48] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
-[2025-09-23T09:46:49] [Warning] [PhotonVoiceView] [Voice(Clone)] PhotonVoiceView.RecorderInUse.TransmitEnabled is false, don't forget to set it to true to enable transmission.
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 980826.
-Total: 309.288100 ms (FindLiveObjects: 41.400600 ms CreateObjectMapping: 99.688800 ms MarkObjects: 163.596700 ms  DeleteObjects: 4.602000 ms)
-
-Calling OpJoinOrCreateRoom for room name '109775244793293656_voice_' region eu.
-Steam: Unlocking lobby...
-[2025-09-23T09:46:53] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 1
-Steam: Lobby member joined: Babaika
-Player entered room: Babaika
-[2025-09-23T09:47:10] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 2
-Steam: Locking lobby...
-Changed level to: Level - Manor
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 11.155700 ms
-Unloading 33179 unused Assets to reduce memory usage. Loaded Objects now: 946381.
-Total: 436.457100 ms (FindLiveObjects: 41.590500 ms CreateObjectMapping: 99.324100 ms MarkObjects: 277.116800 ms  DeleteObjects: 18.425500 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.609200 ms
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 980874.
-Total: 364.866000 ms (FindLiveObjects: 40.820400 ms CreateObjectMapping: 99.322000 ms MarkObjects: 217.076400 ms  DeleteObjects: 7.647200 ms)
-
-Changed level to: Level - Arena
-Deleted save file and all backups for 'REPO_SAVE_2025_09_23_12_46_43'
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 41.175500 ms
-Unloading 33218 unused Assets to reduce memory usage. Loaded Objects now: 946474.
-Total: 379.323000 ms (FindLiveObjects: 43.752400 ms CreateObjectMapping: 100.475100 ms MarkObjects: 217.474700 ms  DeleteObjects: 17.620700 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.515900 ms
-Unloading 86 unused Assets to reduce memory usage. Loaded Objects now: 980905.
-Total: 313.606600 ms (FindLiveObjects: 41.614300 ms CreateObjectMapping: 100.126800 ms MarkObjects: 167.296400 ms  DeleteObjects: 4.568800 ms)
-
-Changed level to: Level - Lobby Menu
-Destroyed all network objects.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.891200 ms
-Unloading 33291 unused Assets to reduce memory usage. Loaded Objects now: 946379.
-Total: 433.604400 ms (FindLiveObjects: 41.579600 ms CreateObjectMapping: 98.720000 ms MarkObjects: 276.124300 ms  DeleteObjects: 17.180100 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.736800 ms
-[2025-09-23T09:51:01] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
-[2025-09-23T09:51:01] [Warning] [PhotonVoiceView] [Voice(Clone)] PhotonVoiceView.RecorderInUse.TransmitEnabled is false, don't forget to set it to true to enable transmission.
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 980883.
-Total: 370.089400 ms (FindLiveObjects: 40.847700 ms CreateObjectMapping: 99.730500 ms MarkObjects: 224.979800 ms  DeleteObjects: 4.531100 ms)
-
-Steam: Unlocking lobby...
-[2025-09-23T09:51:06] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for not inited voice #3 of player 1
-[2025-09-23T09:51:06] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for not inited voice #3 of player 2
-Steam: Locking lobby...
-Changed level to: Level - Arctic
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.193900 ms
-Unloading 33190 unused Assets to reduce memory usage. Loaded Objects now: 946428.
-Total: 434.712400 ms (FindLiveObjects: 43.028100 ms CreateObjectMapping: 100.232600 ms MarkObjects: 273.930900 ms  DeleteObjects: 17.520600 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.732800 ms
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 980921.
-Total: 316.884900 ms (FindLiveObjects: 41.697000 ms CreateObjectMapping: 99.205200 ms MarkObjects: 171.412800 ms  DeleteObjects: 4.569600 ms)
-
-Changed level to: Level - Shop
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 41.265500 ms
-Unloading 33325 unused Assets to reduce memory usage. Loaded Objects now: 946496.
-Total: 377.519800 ms (FindLiveObjects: 41.381700 ms CreateObjectMapping: 100.073100 ms MarkObjects: 217.972500 ms  DeleteObjects: 18.092200 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.721400 ms
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 980956.
-Total: 315.773700 ms (FindLiveObjects: 42.271600 ms CreateObjectMapping: 103.033800 ms MarkObjects: 165.681800 ms  DeleteObjects: 4.786200 ms)
-
-Changed level to: Level - Lobby
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 30.204200 ms
-Unloading 33329 unused Assets to reduce memory usage. Loaded Objects now: 946472.
-Total: 439.046500 ms (FindLiveObjects: 43.245600 ms CreateObjectMapping: 101.254200 ms MarkObjects: 275.311900 ms  DeleteObjects: 19.234500 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.618600 ms
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 980949.
-Total: 313.002800 ms (FindLiveObjects: 42.251900 ms CreateObjectMapping: 98.967300 ms MarkObjects: 167.177200 ms  DeleteObjects: 4.606300 ms)
-
-Received RPC "GrabLinkRPC" for viewID 127 but this PhotonView does not exist! Was remote PV. Remote called. By: #02 'Babaika' Maybe GO was destroyed but RPC not cleaned up.
-Received RPC "GrabPointSyncRPC" for viewID 127 but this PhotonView does not exist! Was remote PV. Remote called. By: #02 'Babaika' Maybe GO was destroyed but RPC not cleaned up.
-Changed level to: Level - Manor
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.471600 ms
-Unloading 33239 unused Assets to reduce memory usage. Loaded Objects now: 946468.
-Total: 435.910200 ms (FindLiveObjects: 42.909500 ms CreateObjectMapping: 100.433100 ms MarkObjects: 275.648400 ms  DeleteObjects: 16.918600 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.647200 ms
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 980955.
-Total: 312.746600 ms (FindLiveObjects: 41.359800 ms CreateObjectMapping: 99.908400 ms MarkObjects: 166.890600 ms  DeleteObjects: 4.587600 ms)
-
-Changed level to: Level - Shop
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 51.705100 ms
-Unloading 33519 unused Assets to reduce memory usage. Loaded Objects now: 946544.
-Total: 439.915300 ms (FindLiveObjects: 41.709700 ms CreateObjectMapping: 99.010600 ms MarkObjects: 280.277200 ms  DeleteObjects: 18.917600 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.531500 ms
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 980958.
-Total: 313.527300 ms (FindLiveObjects: 40.888400 ms CreateObjectMapping: 99.190300 ms MarkObjects: 168.745500 ms  DeleteObjects: 4.702900 ms)
-
-Disconnected from server for reason ApplicationQuit
-[2025-09-23T10:18:14] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] OnVoiceStateChanged from Disconnecting to Disconnected
-[2025-09-23T10:18:14] [Debug] [PunVoiceClient] [PunVoiceClient(Clone)] OnVoiceStateChanged  from Disconnecting to Disconnected
-[2025-09-23T10:18:14] [Debug] [PunVoiceClient] [PunVoiceClient(Clone)] FollowLeader for state Disconnected
-[2025-09-23T10:18:14] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] PunVoiceClient singleton instance is being reset because destroyed.
+Disconnected from server for reason DisconnectByClientLogic
 Cancelling Steam Auth Ticket...
-[2025-09-23T10:18:14] [Info] [Speaker] [Remote p#2 v#4] OnDestroy
-[2025-09-23T10:18:14] [Info] [Speaker] [Remote p#2 v#4] StopPlayback
-[2025-09-23T10:18:14] [Info] [WebRtcAudioDsp] [Voice(Clone)] Stop
-[2025-09-23T10:18:14] [Info] [AudioChangesHandler] [Voice(Clone)] Unsubscribed from audio in change notifications via Photon plugin.
-[2025-09-23T10:18:14] [Info] [AudioChangesHandler] [Voice(Clone)] Unsubscribed from audio in change notifications via Unity OnAudioConfigurationChanged callback.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [1.0 KB-2.0 KB]: 348 frames, [8.0 KB-16.0 KB]: 40975 frames, [16.0 KB-32.0 KB]: 76151 frames, [32.0 KB-64.0 KB]: 21732 frames, [64.0 KB-128.0 KB]: 262988 frames, [128.0 KB-256.0 KB]: 235134 frames, [256.0 KB-0.5 MB]: 6 frames, [0.5 MB-1.0 MB]: 5 frames, [1.0 MB-2.0 MB]: 57 frames, [2.0 MB-4.0 MB]: 19 frames, [4.0 MB-8.0 MB]: 41 frames
+      Peak usage frame count: [1.0 KB-2.0 KB]: 590 frames, [16.0 KB-32.0 KB]: 14620 frames, [32.0 KB-64.0 KB]: 2 frames, [64.0 KB-128.0 KB]: 5 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 4 frames, [4.0 MB-8.0 MB]: 5 frames
       Initial Block Size 4.0 MB
       Current Block Size 7.9 MB
       Peak Allocated Bytes 7.5 MB
-      Overflow Count 335
+      Overflow Count 46
     [ALLOC_TEMP_Background Job.worker 4]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -287,7 +71,7 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 360.0 KB
       Peak Allocated Bytes 301.7 KB
-      Overflow Count 542
+      Overflow Count 104
     [ALLOC_TEMP_Background Job.worker 3]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -311,7 +95,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
+      Peak Allocated Bytes 6.5 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 12]
       Initial Block Size 32.0 KB
@@ -321,36 +105,6 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.worker 2]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 164 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 0]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 14]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 5]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 37.9 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 8]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 15]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 9]
@@ -358,10 +112,40 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
+    [ALLOC_TEMP_Job.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 12.6 KB
+      Overflow Count 0
     [ALLOC_TEMP_Job.worker 4]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 37.6 KB
+      Peak Allocated Bytes 94.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 20.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 12.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 17.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 164 B
       Overflow Count 0
     [ALLOC_TEMP_EnlightenWorker] x 8
       Initial Block Size 64.0 KB
@@ -371,19 +155,19 @@ Memory Statistics:
     [ALLOC_TEMP_Job.worker 1]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 38.1 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 164 B
+      Peak Allocated Bytes 19.7 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 38.1 KB
+      Peak Allocated Bytes 38.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -391,47 +175,47 @@ Memory Statistics:
     [ALLOC_TEMP_Job.worker 12]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
+      Peak Allocated Bytes 3.7 KB
       Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 33.5 KB
       Overflow Count 0
-    [ALLOC_TEMP_Job.worker 13]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 13]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
+    [ALLOC_TEMP_Background Job.worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 94.3 KB
+      Peak Allocated Bytes 35.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 38.0 KB
+      Peak Allocated Bytes 3.7 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 88.4 KB
+      Peak Allocated Bytes 15.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
+      Peak Allocated Bytes 12.1 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 0]
       Initial Block Size 32.0 KB
@@ -441,12 +225,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 30.1 KB
+      Peak Allocated Bytes 88.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 33.5 KB
+      Peak Allocated Bytes 12.1 KB
       Overflow Count 0
     [ALLOC_TEMP_HIDInput]
       Initial Block Size 64.0 KB
@@ -469,30 +253,30 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 22995
+  Peak main deferred allocation count 2872
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 32045051
-        32B: 14 Subsections = 7168 buckets. Failed count: 24318075
-        48B: 21 Subsections = 7168 buckets. Failed count: 96418208
-        64B: 19 Subsections = 4864 buckets. Failed count: 2371844
-        80B: 14 Subsections = 2867 buckets. Failed count: 2133882
-        96B: 3 Subsections = 512 buckets. Failed count: 2537967
-        112B: 2 Subsections = 292 buckets. Failed count: 13421543
-        128B: 2 Subsections = 256 buckets. Failed count: 2598974
+        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
+        32B: 14 Subsections = 7168 buckets. Failed count: 870638
+        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
+        64B: 19 Subsections = 4864 buckets. Failed count: 243942
+        80B: 14 Subsections = 2867 buckets. Failed count: 64426
+        96B: 3 Subsections = 512 buckets. Failed count: 77331
+        112B: 2 Subsections = 292 buckets. Failed count: 326720
+        128B: 2 Subsections = 256 buckets. Failed count: 355250
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 39019 frames, [128.0 MB-256.0 MB]: 598429 frames, [256.0 MB-0.50 GB]: 8 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 15224 frames, [128.0 MB-256.0 MB]: 3 frames
       Requested Block Size 16.0 MB
-      Peak Block count 12
-      Peak Allocated memory 293.3 MB
-      Peak Large allocation bytes 142.5 MB
+      Peak Block count 5
+      Peak Allocated memory 190.7 MB
+      Peak Large allocation bytes 126.5 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 1661 frames, [64.0 MB-128.0 MB]: 635794 frames, [0.50 GB-1.00 GB]: 1 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 1101 frames, [64.0 MB-128.0 MB]: 14125 frames, [0.50 GB-1.00 GB]: 1 frames
       Requested Block Size 16.0 MB
-      Peak Block count 7
+      Peak Block count 5
       Peak Allocated memory 0.62 GB
       Peak Large allocation bytes 0.59 GB
 [ALLOC_TEMP_JOB_1_FRAME]
@@ -508,7 +292,7 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
   Used Block Count 1
-  Overflow Count (too large) 38
+  Overflow Count (too large) 4
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
@@ -516,58 +300,58 @@ Memory Statistics:
   Overflow Count (too large) 44
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 34
+  Peak main deferred allocation count 6
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 32045051
-        32B: 14 Subsections = 7168 buckets. Failed count: 24318075
-        48B: 21 Subsections = 7168 buckets. Failed count: 96418208
-        64B: 19 Subsections = 4864 buckets. Failed count: 2371844
-        80B: 14 Subsections = 2867 buckets. Failed count: 2133882
-        96B: 3 Subsections = 512 buckets. Failed count: 2537967
-        112B: 2 Subsections = 292 buckets. Failed count: 13421543
-        128B: 2 Subsections = 256 buckets. Failed count: 2598974
+        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
+        32B: 14 Subsections = 7168 buckets. Failed count: 870638
+        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
+        64B: 19 Subsections = 4864 buckets. Failed count: 243942
+        80B: 14 Subsections = 2867 buckets. Failed count: 64426
+        96B: 3 Subsections = 512 buckets. Failed count: 77331
+        112B: 2 Subsections = 292 buckets. Failed count: 326720
+        128B: 2 Subsections = 256 buckets. Failed count: 355250
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 27501 frames, [0.5 MB-1.0 MB]: 259580 frames, [1.0 MB-2.0 MB]: 213119 frames, [2.0 MB-4.0 MB]: 8912 frames, [8.0 MB-16.0 MB]: 30939 frames, [16.0 MB-32.0 MB]: 97405 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 15227 frames
       Requested Block Size 16.0 MB
-      Peak Block count 2
-      Peak Allocated memory 23.6 MB
+      Peak Block count 1
+      Peak Allocated memory 494.3 KB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [2.0 MB-4.0 MB]: 122 frames, [4.0 MB-8.0 MB]: 38904 frames, [8.0 MB-16.0 MB]: 23128 frames, [16.0 MB-32.0 MB]: 253459 frames, [32.0 MB-64.0 MB]: 321843 frames
+      Peak usage frame count: [2.0 MB-4.0 MB]: 364 frames, [4.0 MB-8.0 MB]: 14863 frames
       Requested Block Size 16.0 MB
-      Peak Block count 4
-      Peak Allocated memory 46.9 MB
+      Peak Block count 1
+      Peak Allocated memory 6.4 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 587
+  Peak main deferred allocation count 415
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 32045051
-        32B: 14 Subsections = 7168 buckets. Failed count: 24318075
-        48B: 21 Subsections = 7168 buckets. Failed count: 96418208
-        64B: 19 Subsections = 4864 buckets. Failed count: 2371844
-        80B: 14 Subsections = 2867 buckets. Failed count: 2133882
-        96B: 3 Subsections = 512 buckets. Failed count: 2537967
-        112B: 2 Subsections = 292 buckets. Failed count: 13421543
-        128B: 2 Subsections = 256 buckets. Failed count: 2598974
+        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
+        32B: 14 Subsections = 7168 buckets. Failed count: 870638
+        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
+        64B: 19 Subsections = 4864 buckets. Failed count: 243942
+        80B: 14 Subsections = 2867 buckets. Failed count: 64426
+        96B: 3 Subsections = 512 buckets. Failed count: 77331
+        112B: 2 Subsections = 292 buckets. Failed count: 326720
+        128B: 2 Subsections = 256 buckets. Failed count: 355250
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 637456 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 15227 frames
       Requested Block Size 4.0 MB
-      Peak Block count 30
-      Peak Allocated memory 210.7 MB
+      Peak Block count 29
+      Peak Allocated memory 209.3 MB
       Peak Large allocation bytes 135.6 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [256.0 MB-0.50 GB]: 637456 frames
+      Peak usage frame count: [256.0 MB-0.50 GB]: 15227 frames
       Requested Block Size 4.0 MB
       Peak Block count 106
-      Peak Allocated memory 403.8 MB
+      Peak Allocated memory 403.7 MB
       Peak Large allocation bytes 50.4 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -576,22 +360,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 32045051
-        32B: 14 Subsections = 7168 buckets. Failed count: 24318075
-        48B: 21 Subsections = 7168 buckets. Failed count: 96418208
-        64B: 19 Subsections = 4864 buckets. Failed count: 2371844
-        80B: 14 Subsections = 2867 buckets. Failed count: 2133882
-        96B: 3 Subsections = 512 buckets. Failed count: 2537967
-        112B: 2 Subsections = 292 buckets. Failed count: 13421543
-        128B: 2 Subsections = 256 buckets. Failed count: 2598974
+        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
+        32B: 14 Subsections = 7168 buckets. Failed count: 870638
+        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
+        64B: 19 Subsections = 4864 buckets. Failed count: 243942
+        80B: 14 Subsections = 2867 buckets. Failed count: 64426
+        96B: 3 Subsections = 512 buckets. Failed count: 77331
+        112B: 2 Subsections = 292 buckets. Failed count: 326720
+        128B: 2 Subsections = 256 buckets. Failed count: 355250
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [16.0 KB-32.0 KB]: 39262 frames, [32.0 KB-64.0 KB]: 322646 frames, [64.0 KB-128.0 KB]: 275548 frames
+      Peak usage frame count: [16.0 KB-32.0 KB]: 15227 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 94.8 KB
+      Peak Allocated memory 18.4 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [32.0 KB-64.0 KB]: 637456 frames
+      Peak usage frame count: [32.0 KB-64.0 KB]: 15227 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 59.7 KB

@@ -1,6 +1,6 @@
 Mono path[0] = 'C:/REPO/REPO_Data/Managed'
 Mono config path = 'C:/REPO/MonoBleedingEdge/etc'
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path C:/REPO/REPO_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1; jobified=1
@@ -9,18 +9,18 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
     Vendor:   NVIDIA
     VRAM:     7949 MB
-    Driver:   32.0.15.7260
+    Driver:   32.0.15.8129
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.126 seconds
+- Loaded All Assemblies, in  0.092 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
-Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-0000025C0BE0A290.dll
-Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-0000025C0C0DD070.dll
-UnloadTime: 6.412600 ms
+Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-000001F160DD7440.dll
+Fallback handler could not load library C:/REPO/REPO_Data/MonoBleedingEdge/data-000001F342D6F020.dll
+UnloadTime: 4.376400 ms
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
 VERSION: v0.2.1
@@ -31,38 +31,211 @@ Steam: Leaving lobby...
 Cancelling Steam Auth Ticket...
 Leave to Main Menu
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 12.999500 ms
+UnloadTime: 9.029400 ms
 Unloading 33141 unused Assets to reduce memory usage. Loaded Objects now: 946285.
-Total: 433.062600 ms (FindLiveObjects: 40.872300 ms CreateObjectMapping: 98.528900 ms MarkObjects: 277.012500 ms  DeleteObjects: 16.648700 ms)
+Total: 270.104300 ms (FindLiveObjects: 36.486500 ms CreateObjectMapping: 38.871900 ms MarkObjects: 181.623900 ms  DeleteObjects: 13.121800 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.582400 ms
+UnloadTime: 5.719800 ms
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 980776.
-Total: 324.401200 ms (FindLiveObjects: 40.750400 ms CreateObjectMapping: 98.950900 ms MarkObjects: 179.982000 ms  DeleteObjects: 4.717700 ms)
+Total: 192.936300 ms (FindLiveObjects: 36.196400 ms CreateObjectMapping: 41.709200 ms MarkObjects: 111.633600 ms  DeleteObjects: 3.396500 ms)
 
 Photon - Set AppId
 Sending Steam Auth Ticket...
 Getting Steam Auth Ticket...
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-Save file not found in C:/Users/Admin/AppData/LocalLow/semiwork/REPO/saves/.git/.git.es3
-ArgumentNullException: Value cannot be null.
-Parameter name: s
-  at System.Int32.Parse (System.String s) [0x00003] in <4b234520e36749be9cf6b053d911690f>:0 
-  at MenuPageSaves.Start () [0x0009d] in <e11435bf883d4773ade3f38cb21e9d9e>:0 
-
 Disconnected from server for reason DisconnectByClientLogic
+Photon - Set AppId
+Sending Steam Auth Ticket...
+Getting Steam Auth Ticket...
+Disconnected from server for reason DisconnectByClientLogic
+Changed level to: Level - Lobby Menu
+Photon - Set Region
+Photon - Set Version
+Photon - Set AppId
+PunVoiceClientLogic Awake
+Created lobby on Network Connect.
+Steam: Hosting lobby...
+Steam: Lobby created with ID: 109775241338164852
+Steam: Lobby entered with ID: 109775241338164852
+Steam: Region: 
+Sending Steam Auth Ticket...
+Getting Steam Auth Ticket...
+Connected to Master Server
+I am the owner.
+Steam: Setting lobby data...
+Trying to join room: 109775241338164852
+Created room successfully 109775241338164852 eu
+Joined room: 109775241338164852 eu
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Game Mode: Multiplayer
+NetworkConnect destroyed.
+UnloadTime: 6.864200 ms
+[2025-09-29T11:24:46] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
+[2025-09-29T11:24:46] [Warning] [PhotonVoiceView] [Voice(Clone)] PhotonVoiceView.RecorderInUse.TransmitEnabled is false, don't forget to set it to true to enable transmission.
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 980826.
+Total: 191.627500 ms (FindLiveObjects: 35.302600 ms CreateObjectMapping: 42.117600 ms MarkObjects: 110.847100 ms  DeleteObjects: 3.359800 ms)
+
+Calling OpJoinOrCreateRoom for room name '109775241338164852_voice_' region eu.
+Steam: Unlocking lobby...
+[2025-09-29T11:24:50] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 1
+Leave Photon
+Steam: Leaving lobby... and ruining it for others.
 Cancelling Steam Auth Ticket...
+Disconnected from server for reason DisconnectByClientLogic
+Leave to Main Menu
+Deleted save file and all backups for 'REPO_SAVE_2025_09_29_14_24_35'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.019600 ms
+Unloading 33184 unused Assets to reduce memory usage. Loaded Objects now: 946320.
+Total: 266.885500 ms (FindLiveObjects: 35.051600 ms CreateObjectMapping: 42.195900 ms MarkObjects: 176.202300 ms  DeleteObjects: 13.435600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.197400 ms
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 980814.
+Total: 185.943000 ms (FindLiveObjects: 35.720100 ms CreateObjectMapping: 39.814900 ms MarkObjects: 106.999700 ms  DeleteObjects: 3.408100 ms)
+
+Photon - Set AppId
+Sending Steam Auth Ticket...
+Getting Steam Auth Ticket...
+Disconnected from server for reason DisconnectByClientLogic
+Changed level to: Level - Lobby Menu
+Photon - Set Region
+Photon - Set Version
+Photon - Set AppId
+[2025-09-29T11:31:27] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
+PunVoiceClientLogic Awake
+Created lobby on Network Connect.
+Steam: Hosting lobby...
+Steam: Lobby created with ID: 109775241338779988
+Steam: Lobby entered with ID: 109775241338779988
+Steam: Region: 
+Sending Steam Auth Ticket...
+Getting Steam Auth Ticket...
+Connected to Master Server
+I am the owner.
+Steam: Setting lobby data...
+Trying to join room: 109775241338779988
+Created room successfully 109775241338779988 eu
+Joined room: 109775241338779988 eu
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Game Mode: Multiplayer
+NetworkConnect destroyed.
+UnloadTime: 7.377200 ms
+[2025-09-29T11:31:32] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
+[2025-09-29T11:31:32] [Warning] [PhotonVoiceView] [Voice(Clone)] PhotonVoiceView.RecorderInUse.TransmitEnabled is false, don't forget to set it to true to enable transmission.
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 980838.
+Total: 191.097700 ms (FindLiveObjects: 36.584200 ms CreateObjectMapping: 42.233000 ms MarkObjects: 108.870600 ms  DeleteObjects: 3.409400 ms)
+
+Calling OpJoinOrCreateRoom for room name '109775241338779988_voice_' region eu.
+Steam: Unlocking lobby...
+[2025-09-29T11:31:37] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #3 of not inited player 1
+Steam: Lobby member joined: Babaika
+Player entered room: Babaika
+[2025-09-29T11:31:54] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 2
+[2025-09-29T11:31:54] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 2
+Steam: Locking lobby...
+Changed level to: Level - Shop
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.332600 ms
+Unloading 33191 unused Assets to reduce memory usage. Loaded Objects now: 946381.
+Total: 266.047700 ms (FindLiveObjects: 34.535900 ms CreateObjectMapping: 41.571000 ms MarkObjects: 176.548100 ms  DeleteObjects: 13.392400 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.362400 ms
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 980874.
+Total: 184.593500 ms (FindLiveObjects: 34.579600 ms CreateObjectMapping: 41.597300 ms MarkObjects: 105.088100 ms  DeleteObjects: 3.328100 ms)
+
+Changed level to: Level - Lobby
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 17.736100 ms
+Unloading 33415 unused Assets to reduce memory usage. Loaded Objects now: 946416.
+Total: 274.373400 ms (FindLiveObjects: 37.982000 ms CreateObjectMapping: 41.958300 ms MarkObjects: 179.697800 ms  DeleteObjects: 14.735200 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.474900 ms
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 980902.
+Total: 216.493800 ms (FindLiveObjects: 34.800900 ms CreateObjectMapping: 41.469200 ms MarkObjects: 136.856600 ms  DeleteObjects: 3.366900 ms)
+
+Changed level to: Level - Wizard
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.069400 ms
+Unloading 33234 unused Assets to reduce memory usage. Loaded Objects now: 946421.
+Total: 264.864700 ms (FindLiveObjects: 36.616000 ms CreateObjectMapping: 41.629700 ms MarkObjects: 172.999100 ms  DeleteObjects: 13.619500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.360400 ms
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 980908.
+Total: 184.510600 ms (FindLiveObjects: 35.839800 ms CreateObjectMapping: 37.266500 ms MarkObjects: 108.130100 ms  DeleteObjects: 3.274000 ms)
+
+Changed level to: Level - Shop
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 31.088800 ms
+Unloading 33442 unused Assets to reduce memory usage. Loaded Objects now: 946483.
+Total: 277.168100 ms (FindLiveObjects: 37.266500 ms CreateObjectMapping: 42.694200 ms MarkObjects: 182.473000 ms  DeleteObjects: 14.734300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.481200 ms
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 980912.
+Total: 188.594200 ms (FindLiveObjects: 34.500300 ms CreateObjectMapping: 40.090900 ms MarkObjects: 110.551400 ms  DeleteObjects: 3.451300 ms)
+
+Changed level to: Level - Lobby
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.734700 ms
+Unloading 33341 unused Assets to reduce memory usage. Loaded Objects now: 946421.
+Total: 269.060700 ms (FindLiveObjects: 36.791900 ms CreateObjectMapping: 38.385200 ms MarkObjects: 179.421700 ms  DeleteObjects: 14.461600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.313600 ms
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 980906.
+Total: 218.740100 ms (FindLiveObjects: 34.986300 ms CreateObjectMapping: 40.908100 ms MarkObjects: 139.653400 ms  DeleteObjects: 3.192100 ms)
+
+Changed level to: Level - Arctic
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.028200 ms
+Unloading 33277 unused Assets to reduce memory usage. Loaded Objects now: 946447.
+Total: 272.160200 ms (FindLiveObjects: 36.609800 ms CreateObjectMapping: 43.246700 ms MarkObjects: 178.293900 ms  DeleteObjects: 14.009600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.432500 ms
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 980910.
+Total: 186.268800 ms (FindLiveObjects: 35.414700 ms CreateObjectMapping: 40.976100 ms MarkObjects: 106.574800 ms  DeleteObjects: 3.303000 ms)
+
+Changed level to: Level - Shop
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 36.407200 ms
+Unloading 33539 unused Assets to reduce memory usage. Loaded Objects now: 946531.
+Total: 280.733000 ms (FindLiveObjects: 37.622000 ms CreateObjectMapping: 42.325400 ms MarkObjects: 185.438700 ms  DeleteObjects: 15.346600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.095800 ms
+Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 980941.
+Total: 191.544000 ms (FindLiveObjects: 34.775400 ms CreateObjectMapping: 43.274600 ms MarkObjects: 110.157000 ms  DeleteObjects: 3.336800 ms)
+
+Player left room: Babaika
+Steam: Lobby member left: Babaika
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] OnLeaderStateChanged to Disconnecting
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] OnLeaderStateChanged to Disconnected
+[2025-09-29T12:13:55] [Debug] [PunVoiceClient] [PunVoiceClient(Clone)] FollowLeader for state Disconnected
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] OnRemoteVoiceInfo: RemoteVoiceRemoved [p#1 v#4 c#0 i:{c=AudioOpus f=48000 ch=1 d=20000 s=960 b=30000 w=0 h=0 fps=0 kfi=0 ud=1006}]
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Remote AudioOpus p#1 v#4 ch#0: Exiting decode thread
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Remote voices cleared
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] OnVoiceStateChanged from Joined to Disconnecting
+[2025-09-29T12:13:55] [Debug] [PunVoiceClient] [PunVoiceClient(Clone)] OnVoiceStateChanged  from Joined to Disconnecting
+Cancelling Steam Auth Ticket...
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] OnVoiceStateChanged from Disconnecting to Disconnected
+[2025-09-29T12:13:55] [Debug] [PunVoiceClient] [PunVoiceClient(Clone)] OnVoiceStateChanged  from Disconnecting to Disconnected
+[2025-09-29T12:13:55] [Debug] [PunVoiceClient] [PunVoiceClient(Clone)] FollowLeader for state Disconnected
+[2025-09-29T12:13:55] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] PunVoiceClient singleton instance is being reset because destroyed.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [1.0 KB-2.0 KB]: 590 frames, [16.0 KB-32.0 KB]: 14620 frames, [32.0 KB-64.0 KB]: 2 frames, [64.0 KB-128.0 KB]: 5 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 4 frames, [4.0 MB-8.0 MB]: 5 frames
+      Peak usage frame count: [1.0 KB-2.0 KB]: 36 frames, [8.0 KB-16.0 KB]: 3391 frames, [16.0 KB-32.0 KB]: 305623 frames, [32.0 KB-64.0 KB]: 458 frames, [64.0 KB-128.0 KB]: 127813 frames, [128.0 KB-256.0 KB]: 267540 frames, [256.0 KB-0.5 MB]: 121 frames, [0.5 MB-1.0 MB]: 7 frames, [1.0 MB-2.0 MB]: 58 frames, [2.0 MB-4.0 MB]: 44 frames, [4.0 MB-8.0 MB]: 44 frames
       Initial Block Size 4.0 MB
       Current Block Size 7.9 MB
       Peak Allocated Bytes 7.5 MB
-      Overflow Count 46
-    [ALLOC_TEMP_Background Job.worker 4]
+      Overflow Count 192
+    [ALLOC_TEMP_Background Job.worker 11]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -71,13 +244,13 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 360.0 KB
       Peak Allocated Bytes 301.7 KB
-      Overflow Count 104
+      Overflow Count 548
     [ALLOC_TEMP_Background Job.worker 3]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 11]
+    [ALLOC_TEMP_Background Job.worker 4]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -92,11 +265,6 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.worker 11]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 6.5 KB
-      Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 12]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -107,7 +275,7 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 9]
+    [ALLOC_TEMP_Background Job.worker 10]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -115,79 +283,19 @@ Memory Statistics:
     [ALLOC_TEMP_Job.worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 12.6 KB
+      Peak Allocated Bytes 38.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 4]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 94.3 KB
+      Peak Allocated Bytes 88.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.worker 5]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 20.0 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 14]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 12.8 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 13]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 17.1 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 164 B
-      Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 8
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 1]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 19.7 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 3]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 38.0 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 5]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 38.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 8]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 12]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.7 KB
-      Overflow Count 0
-    [ALLOC_TEMP_UnityGfxDeviceWorker]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 33.5 KB
-      Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 13]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -197,25 +305,55 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 164 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 38.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 94.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 33.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
     [ALLOC_TEMP_Job.worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 35.8 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 10]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.7 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 7]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 15.3 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 9]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 12.1 KB
+      Peak Allocated Bytes 38.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.worker 0]
       Initial Block Size 32.0 KB
@@ -225,12 +363,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 88.4 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 8]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 12.1 KB
+      Peak Allocated Bytes 38.8 KB
       Overflow Count 0
     [ALLOC_TEMP_HIDInput]
       Initial Block Size 64.0 KB
@@ -253,30 +386,30 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 2872
+  Peak main deferred allocation count 39217
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
-        32B: 14 Subsections = 7168 buckets. Failed count: 870638
-        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
-        64B: 19 Subsections = 4864 buckets. Failed count: 243942
-        80B: 14 Subsections = 2867 buckets. Failed count: 64426
-        96B: 3 Subsections = 512 buckets. Failed count: 77331
-        112B: 2 Subsections = 292 buckets. Failed count: 326720
-        128B: 2 Subsections = 256 buckets. Failed count: 355250
+        16B: 181 Subsections = 185344 buckets. Failed count: 39352235
+        32B: 14 Subsections = 7168 buckets. Failed count: 26999486
+        48B: 21 Subsections = 7168 buckets. Failed count: 86255995
+        64B: 19 Subsections = 4864 buckets. Failed count: 2185909
+        80B: 14 Subsections = 2867 buckets. Failed count: 2452801
+        96B: 3 Subsections = 512 buckets. Failed count: 2641994
+        112B: 2 Subsections = 292 buckets. Failed count: 14869852
+        128B: 2 Subsections = 256 buckets. Failed count: 2517204
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 15224 frames, [128.0 MB-256.0 MB]: 3 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 121327 frames, [128.0 MB-256.0 MB]: 478651 frames, [256.0 MB-0.50 GB]: 105157 frames
       Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 190.7 MB
-      Peak Large allocation bytes 126.5 MB
+      Peak Block count 13
+      Peak Allocated memory 320.5 MB
+      Peak Large allocation bytes 158.5 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 1101 frames, [64.0 MB-128.0 MB]: 14125 frames, [0.50 GB-1.00 GB]: 1 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 2730 frames, [64.0 MB-128.0 MB]: 702404 frames, [0.50 GB-1.00 GB]: 1 frames
       Requested Block Size 16.0 MB
-      Peak Block count 5
+      Peak Block count 7
       Peak Allocated memory 0.62 GB
       Peak Large allocation bytes 0.59 GB
 [ALLOC_TEMP_JOB_1_FRAME]
@@ -292,7 +425,7 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
   Used Block Count 1
-  Overflow Count (too large) 4
+  Overflow Count (too large) 40
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
@@ -300,58 +433,58 @@ Memory Statistics:
   Overflow Count (too large) 44
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 6
+  Peak main deferred allocation count 32
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
-        32B: 14 Subsections = 7168 buckets. Failed count: 870638
-        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
-        64B: 19 Subsections = 4864 buckets. Failed count: 243942
-        80B: 14 Subsections = 2867 buckets. Failed count: 64426
-        96B: 3 Subsections = 512 buckets. Failed count: 77331
-        112B: 2 Subsections = 292 buckets. Failed count: 326720
-        128B: 2 Subsections = 256 buckets. Failed count: 355250
+        16B: 181 Subsections = 185344 buckets. Failed count: 39352235
+        32B: 14 Subsections = 7168 buckets. Failed count: 26999486
+        48B: 21 Subsections = 7168 buckets. Failed count: 86255995
+        64B: 19 Subsections = 4864 buckets. Failed count: 2185909
+        80B: 14 Subsections = 2867 buckets. Failed count: 2452801
+        96B: 3 Subsections = 512 buckets. Failed count: 2641994
+        112B: 2 Subsections = 292 buckets. Failed count: 14869852
+        128B: 2 Subsections = 256 buckets. Failed count: 2517204
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 15227 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 47018 frames, [0.5 MB-1.0 MB]: 246377 frames, [4.0 MB-8.0 MB]: 103615 frames, [8.0 MB-16.0 MB]: 177276 frames, [16.0 MB-32.0 MB]: 130849 frames
       Requested Block Size 16.0 MB
-      Peak Block count 1
-      Peak Allocated memory 494.3 KB
+      Peak Block count 2
+      Peak Allocated memory 20.8 MB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [2.0 MB-4.0 MB]: 364 frames, [4.0 MB-8.0 MB]: 14863 frames
+      Peak usage frame count: [2.0 MB-4.0 MB]: 23 frames, [4.0 MB-8.0 MB]: 292256 frames, [8.0 MB-16.0 MB]: 36 frames, [32.0 MB-64.0 MB]: 146629 frames, [64.0 MB-128.0 MB]: 266191 frames
       Requested Block Size 16.0 MB
-      Peak Block count 1
-      Peak Allocated memory 6.4 MB
+      Peak Block count 7
+      Peak Allocated memory 104.3 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 415
+  Peak main deferred allocation count 587
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
-        32B: 14 Subsections = 7168 buckets. Failed count: 870638
-        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
-        64B: 19 Subsections = 4864 buckets. Failed count: 243942
-        80B: 14 Subsections = 2867 buckets. Failed count: 64426
-        96B: 3 Subsections = 512 buckets. Failed count: 77331
-        112B: 2 Subsections = 292 buckets. Failed count: 326720
-        128B: 2 Subsections = 256 buckets. Failed count: 355250
+        16B: 181 Subsections = 185344 buckets. Failed count: 39352235
+        32B: 14 Subsections = 7168 buckets. Failed count: 26999486
+        48B: 21 Subsections = 7168 buckets. Failed count: 86255995
+        64B: 19 Subsections = 4864 buckets. Failed count: 2185909
+        80B: 14 Subsections = 2867 buckets. Failed count: 2452801
+        96B: 3 Subsections = 512 buckets. Failed count: 2641994
+        112B: 2 Subsections = 292 buckets. Failed count: 14869852
+        128B: 2 Subsections = 256 buckets. Failed count: 2517204
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 15227 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 705135 frames
       Requested Block Size 4.0 MB
-      Peak Block count 29
-      Peak Allocated memory 209.3 MB
+      Peak Block count 30
+      Peak Allocated memory 210.7 MB
       Peak Large allocation bytes 135.6 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [256.0 MB-0.50 GB]: 15227 frames
+      Peak usage frame count: [256.0 MB-0.50 GB]: 705135 frames
       Requested Block Size 4.0 MB
       Peak Block count 106
-      Peak Allocated memory 403.7 MB
+      Peak Allocated memory 403.8 MB
       Peak Large allocation bytes 50.4 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -360,22 +493,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 181 Subsections = 185344 buckets. Failed count: 1741925
-        32B: 14 Subsections = 7168 buckets. Failed count: 870638
-        48B: 21 Subsections = 7168 buckets. Failed count: 1901651
-        64B: 19 Subsections = 4864 buckets. Failed count: 243942
-        80B: 14 Subsections = 2867 buckets. Failed count: 64426
-        96B: 3 Subsections = 512 buckets. Failed count: 77331
-        112B: 2 Subsections = 292 buckets. Failed count: 326720
-        128B: 2 Subsections = 256 buckets. Failed count: 355250
+        16B: 181 Subsections = 185344 buckets. Failed count: 39352235
+        32B: 14 Subsections = 7168 buckets. Failed count: 26999486
+        48B: 21 Subsections = 7168 buckets. Failed count: 86255995
+        64B: 19 Subsections = 4864 buckets. Failed count: 2185909
+        80B: 14 Subsections = 2867 buckets. Failed count: 2452801
+        96B: 3 Subsections = 512 buckets. Failed count: 2641994
+        112B: 2 Subsections = 292 buckets. Failed count: 14869852
+        128B: 2 Subsections = 256 buckets. Failed count: 2517204
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [16.0 KB-32.0 KB]: 15227 frames
+      Peak usage frame count: [16.0 KB-32.0 KB]: 338981 frames, [32.0 KB-64.0 KB]: 167283 frames, [64.0 KB-128.0 KB]: 198871 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 18.4 KB
+      Peak Allocated memory 95.2 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [32.0 KB-64.0 KB]: 15227 frames
+      Peak usage frame count: [32.0 KB-64.0 KB]: 705135 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 59.7 KB
